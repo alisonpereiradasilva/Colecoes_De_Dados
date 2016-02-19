@@ -1,0 +1,26 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class ExemploList {
+
+	public static void main(String[] args) {
+		
+		Collection <String> cores = new ArrayList <String>();
+		
+		cores.add("Amaralo");
+		cores.add("Azul");
+		cores.add("Preto");
+		cores.add("Verde");
+		
+		if (cores.isEmpty()){
+			System.out.println("Lista Vazia");
+		}else{
+			System.out.println("As cores da coleçao são: " + cores);
+		}
+		
+
+	}
+
+}
