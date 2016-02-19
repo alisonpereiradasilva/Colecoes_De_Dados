@@ -1,0 +1,26 @@
+package Collections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ExemploSet {
+
+	public static void main(String[] args) {
+		
+		Set <String> colecaoSet = new HashSet <String>();
+		
+		colecaoSet.add("BMW");
+		colecaoSet.add("Audi");
+		colecaoSet.add("Mercedes Benz");
+		colecaoSet.add("Lamborguini");
+		
+		System.out.println("Esta colecao tem: " + colecaoSet.size());
+		
+		int count = 0;
+		for (String valor : colecaoSet){
+			System.out.println(++count + "->" + valor);
+		}
+
+	}
+
+}
