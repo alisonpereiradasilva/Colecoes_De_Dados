@@ -1,0 +1,23 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class ExemploListOutroMetodo {
+
+	private static Collection <String> nomes;
+	
+	public static void main(String[] args) {
+		
+	nomes = new ArrayList<String>();
+	
+	nomes.add("1");
+	nomes.add("2");
+	nomes.add("3");
+	nomes.add("4");
+	
+	System.out.println("Os nomes da lista em Arrays List são: " + nomes);
+	
+	}
+	
+}
